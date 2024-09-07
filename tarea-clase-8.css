@@ -1,0 +1,57 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.oculto {
+    display: none;
+}
+
+.error {
+    border:2px solid red;
+}
+
+#consigna-paso {
+    font-weight: bold;
+}
+
+#datos-formulario {
+    margin-bottom: 10px;
+}
+
+.label-integrante, .label-salario-integrante, #label-cantidad-integrantes{
+    width: 230px;
+    display: inline-block;
+    text-align: right;
+    margin-top:7px ;
+}
+
+.resultado {
+    display: block;
+    margin-top:10px;
+}
+
+#label-resultados-edades, #label-resultados-salarios{
+    margin-top: 15px;
+    display: block;
+    width:460px;
+}
+
+button {
+    display: block;
+    margin-top: 5px;
+    width: 230px;
+    margin-right: auto;
+}
+
+input {
+    margin:auto;
+    width: 223px;
+}
+
+
+#errores {
+    color:red;
+    font-size: 10px;
+    font-weight: bold;
+}
